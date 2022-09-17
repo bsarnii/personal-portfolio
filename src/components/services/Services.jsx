@@ -17,32 +17,20 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>Erstellung von Webseite-Entwürfe</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>Responsive Web Design auf PC / Tablet / Handy</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>Einhaltung von Stilstandards zu Schriftarten, Farben und Bildern</p>
             </li>
           </ul>
         </article>
 
-      {/*Web Debelopment*/}
+      {/*Web Development*/}
         <article className="service">
           <div className="service__head">
             <h3>Web Entwicklung</h3>
@@ -51,60 +39,19 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>Erstllung von Fontend-Webseiten</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>API implementierung</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>browserübergreifende Website-Optimierung</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
-            </li>
-          </ul>
-        </article>
-      {/*Content creation*/}
-        <article className="service">
-          <div className="service__head">
-            <h3>Content Creation</h3>
-          </div>
-
-          <ul className="service__list">
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>Erstellte Webseite ins Internet veröffentlichen</p>
             </li>
           </ul>
         </article>
