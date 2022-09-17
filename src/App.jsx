@@ -9,11 +9,12 @@ import Services from "./components/services/Services"
 import Portfolio from "./components/portfolio/Portfolio"
 
 function App() {
+
   return (
     <>
       <Header />
       <Nav />
-      <About />
+      <About/>
       <Experience />
       <Services />
       <Portfolio />

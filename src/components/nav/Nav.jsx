@@ -6,7 +6,9 @@ import { MdContactMail } from "react-icons/md"
 import "./Nav.css"
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState("#header")
+
+  const [activeNav, setActiveNav] = useState("#header");
+
   return (
     <nav>
       <a href="#header" onClick={() => setActiveNav("#header")} className={activeNav === "#header" ? "active" : ""}><AiOutlineHome/></a>
@@ -16,6 +18,7 @@ const Nav = () => {
       <a href="#contact" onClick={() => setActiveNav("contact")} className={activeNav === "contact" ? "active" : ""}><MdContactMail/></a>
     </nav>
   )
+
 }
 
 export default Nav

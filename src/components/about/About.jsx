@@ -4,6 +4,7 @@ import ME from "../../assets/mee-about.jpg";
 import {FaAward, FaFolderOpen} from "react-icons/fa";
 
 const About = () => {
+
   return (
     <section id="about">
       <h5>Wer bin ich?</h5>
