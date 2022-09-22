@@ -1,5 +1,6 @@
 import IMG1 from "../../assets/portfolio-1.png"
 import IMG2 from "../../assets/portfolio-2.png"
+import IMG3 from "../../assets/portfolio-3.png"
 
 export const data = [
     {
@@ -14,6 +15,13 @@ export const data = [
         image: IMG2,
         title: "Weather app",
         github: "https://github.com/bsarnii/weather-app",
-        demo: "https://classy-frangollo-0682eb.netlify.app/ "
+        demo: "https://classy-frangollo-0682eb.netlify.app/"
+    },
+    {
+        id: 3,
+        image: IMG3,
+        title: "IP-Adresse / Domain finder",
+        github: "https://github.com/bsarnii/ip-adress-tracker",
+        demo: "https://magical-donut-5d1284.netlify.app"
     }
 ]
