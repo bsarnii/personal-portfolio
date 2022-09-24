@@ -47,11 +47,11 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>browserübergreifende Website-Optimierung</p>
+              <p>browser- und geräteübergreifende Website-Optimierung</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Erstellte Webseite ins Internet veröffentlichen</p>
+              <p>erstellte Webseite ins Internet veröffentlichen</p>
             </li>
           </ul>
         </article>

@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import "./Contact.css"
 import { MdOutlineEmail } from "react-icons/md"
+import { BsWhatsapp } from "react-icons/bs"
 import emailjs from 'emailjs-com';
 
 const Contact = () => {
@@ -19,11 +20,19 @@ const Contact = () => {
       <h2>Kontakt</h2>
 
       <div className="container contact__container">
-        <div className="contact__option">
-          <MdOutlineEmail className="contact__option-icon"/>
-          <h4>Email</h4>
-          <h5>scharnoui@gmail.com</h5>
-          <a href="mailto:scharnoui@gmail.com">E-mail senden</a>
+        <div className='contact__options'>
+          <article className="contact__option">
+            <MdOutlineEmail className="contact__option-icon"/>
+            <h4>Email</h4>
+            <h5>scharnoui@gmail.com</h5>
+            <a href="mailto:scharnoui@gmail.com">E-mail senden</a>
+          </article>
+          <article className="contact__option">
+            <BsWhatsapp/>
+            <h4>WhatsApp</h4>
+            <h5>+491628710079</h5>
+            <a href='https://wa.me/491628710079' target="_blank" rel="noreferrer">Nachricht senden</a>
+          </article>
         </div>
         {displayForm.display === "none" ? 
         <h3 className='nachricht__erfolg'>Deine Nachricht wurde gesendet!</h3>
