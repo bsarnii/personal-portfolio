@@ -2,9 +2,9 @@ import React from 'react'
 import "./Services.css"
 import {BiCheck} from "react-icons/bi"
 
-const Services = () => {
+const Services = ({forwardedRef}) => {
   return (
-    <section id="services">
+    <section id="services" >
       <h5>Was ich anbiete</h5>
       <h2>Service</h2>
 
@@ -43,7 +43,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>API implementierung</p>
+              <p ref={forwardedRef}>API implementierung</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>

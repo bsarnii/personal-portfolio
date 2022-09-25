@@ -3,15 +3,14 @@ import "./About.css"
 import ME from "../../assets/mee-about.jpg";
 import {FaAward, FaFolderOpen} from "react-icons/fa";
 
-const About = () => {
-
+const About = ({forwardedRef})  => {
   return (
-    <section id="about">
+    <section id="about" >
       <h5>Wer bin ich?</h5>
       <h2>Über mich</h2>
       <div className="container about__container">
         <div className="about__me">
-          <div className="about__me-image">
+          <div className="about__me-image" ref={forwardedRef}>
             <img src={ME} alt="ich" />
           </div>
         </div>

@@ -4,7 +4,7 @@ import { MdOutlineEmail } from "react-icons/md"
 import { BsWhatsapp } from "react-icons/bs"
 import emailjs from 'emailjs-com';
 
-const Contact = () => {
+const Contact = ({forwardedRef}) => {
   const [displayForm, setDisplayForm] = useState({});
 
   const form = useRef();
@@ -15,7 +15,7 @@ const Contact = () => {
     };
 
   return (
-    <section id="contact">
+    <section id="contact" ref={forwardedRef}>
       <h5>Setzen wir uns in Verbindung</h5>
       <h2>Kontakt</h2>
 

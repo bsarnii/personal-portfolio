@@ -2,15 +2,15 @@ import React from 'react'
 import "./Experience.css"
 import { BsFillPatchCheckFill } from "react-icons/bs"
 
-const Experience = () => {
+const Experience = ({forwardedRef}) => {
   return (
-    <section id="experience">
+    <section id="experience" >
       <h5>Diese Web-Technologien kenne ich</h5>
       <h2>Meine Erfahrungen</h2>
 
       <div className="container experience__container">
         <div className="experience__frontend">
-          <h3>Frontend Entwicklung</h3>
+          <h3 ref={forwardedRef}>Frontend Entwicklung</h3>
           <div className="experience__content">
             <article className="experience__details">
               <BsFillPatchCheckFill className='experience__details-icon'/>
@@ -36,8 +36,8 @@ const Experience = () => {
             <article className="experience__details">
               <BsFillPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>SCSS</h4>
-                <small className='text-light'>Fortgeschritten</small>
+                <h4>SASS</h4>
+                <small className='text-light'>Anfänger</small>
               </div>
             </article>
             <article className="experience__details">

@@ -1,21 +1,19 @@
-import React, {useState} from 'react'
+import React from 'react'
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai"
 import { BiBook } from "react-icons/bi"
 import { RiServiceLine } from "react-icons/ri"
 import { MdContactMail } from "react-icons/md"
 import "./Nav.css"
 
-const Nav = () => {
-
-  const [activeNav, setActiveNav] = useState("#header");
+const Nav = ({view}) => {
 
   return (
     <nav>
-      <a href="#header" onClick={() => setActiveNav("#header")} className={activeNav === "#header" ? "active" : ""}><AiOutlineHome/></a>
-      <a href="#about" onClick={() => setActiveNav("about")} className={activeNav === "about" ? "active" : ""}><AiOutlineUser/></a>
-      <a href="#experience" onClick={() => setActiveNav("experience")} className={activeNav === "experience" ? "active" : ""}><BiBook/></a>
-      <a href="#services" onClick={() => setActiveNav("services")} className={activeNav === "services" ? "active" : ""}><RiServiceLine/></a>
-      <a href="#contact" onClick={() => setActiveNav("contact")} className={activeNav === "contact" ? "active" : ""}><MdContactMail/></a>
+      <a href="#header" className={view.header === true ? "active" : ""}><AiOutlineHome/></a>
+      <a href="#about" className={view.about === true ? "active" : ""}><AiOutlineUser/></a>
+      <a href="#experience" className={view.experience === true ? "active" : ""}><BiBook/></a>
+      <a href="#services" className={view.services === true ? "active" : ""}><RiServiceLine/></a>
+      <a href="#contact" className={view.contact === true ? "active" : ""}><MdContactMail/></a>
     </nav>
   )
 

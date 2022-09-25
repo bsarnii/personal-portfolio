@@ -4,9 +4,9 @@ import CTA from "./CTA"
 import ME from "../../assets/mee.png"
 import HeaderSocials from './HeaderSocials'
 
-const Header = () => {
+const Header = ({forwardedRef}) => {
   return (
-    <header id='header'>
+    <header id='header' ref={forwardedRef}>
       <div className="container header__container">
         <h5>Hallo, ich bin</h5>
         <h1>Arnold</h1>
