@@ -25,7 +25,7 @@ const Services = ({forwardedRef}) => {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Einhaltung von Stilstandards zu Schriftarten, Farben und Bildern</p>
+              <p ref={forwardedRef}>Einhaltung von Stilstandards zu Schriftarten, Farben und Bildern</p>
             </li>
           </ul>
         </article>
@@ -43,7 +43,7 @@ const Services = ({forwardedRef}) => {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p ref={forwardedRef}>API implementierung</p>
+              <p>API implementierung</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
