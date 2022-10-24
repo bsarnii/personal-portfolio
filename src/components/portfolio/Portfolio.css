@@ -21,7 +21,11 @@
     overflow: hidden;
 }
 .portfolio__item h3 {
-    margin: 1.2rem 0 2rem;
+    margin: 1rem 0;
+}
+.build__technologies {
+    color: var(--color-light);
+    margin-bottom: 0.5rem;
 }
 .portfolio__item-cta{
     display: flex;
