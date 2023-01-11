@@ -37,13 +37,20 @@ const Experience = ({forwardedRef}) => {
               <BsFillPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>SASS</h4>
-                <small className='text-light'>Anfänger</small>
+                <small className='text-light'>Fortgeschritten</small>
               </div>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>Typescript</h4>
+                <small className='text-light'>Fortgeschritten</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>Angular</h4>
                 <small className='text-light'>Anfänger</small>
               </div>
             </article>
