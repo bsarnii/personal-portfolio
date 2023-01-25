@@ -12,7 +12,7 @@ const Services = ({forwardedRef}) => {
       {/*Web Development*/}
         <article className="service">
           <div className="service__head">
-            <h3>Web Entwicklung</h3>
+            <h3 ref={forwardedRef}>Web Entwicklung</h3>
           </div>
 
           <ul className="service__list">
