@@ -6,7 +6,7 @@ import {data} from "./websiteData";
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h5>Meine letzte Produkte</h5>
+      <h5>Meine letzte Projekte</h5>
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
