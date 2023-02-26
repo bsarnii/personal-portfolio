@@ -16,56 +16,48 @@ const Experience = ({forwardedRef}) => {
               <BsFillPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>HTML</h4>
-                <small className='text-light'>Erfahrener</small>
               </div>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>CSS</h4>
-                <small className='text-light'>Erfahrener</small>
               </div>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>JavaScript</h4>
-                <small className='text-light'>Fortgeschritten</small>
               </div>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>SASS</h4>
-                <small className='text-light'>Fortgeschritten</small>
+                <h4>SASS/SCSS</h4>
               </div>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>Typescript</h4>
-                <small className='text-light'>Fortgeschritten</small>
               </div>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>Angular</h4>
-                <small className='text-light'>Anfänger</small>
               </div>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>React</h4>
-                <small className='text-light'>Fortgeschritten</small>
               </div>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>Git</h4>
-                <small className='text-light'>Fortgeschritten</small>
               </div>
             </article>
           </div>

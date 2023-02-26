@@ -16,31 +16,19 @@ const About = ({forwardedRef})  => {
         </div>
 
         <div className="about__content">
-          <div className="about__cards">
-            <article className="about__card">
-              <FaAward className='about__icon'/>
-              <h5>Erfahrungen</h5>
-              <small>1+ Jahr</small>
-            </article>
-
-            {/*<article className="about__card">
-              <FaUsers className='about__icon'/>
-              <h5>Kundschaft</h5>
-              <small>0 Weltweit</small>
-            </article>
-            */}
-
-            <article className="about__card">
-              <FaFolderOpen className='about__icon'/>
-              <h5>Projekte</h5>
-              <small>10+ individuelle Projekte</small>
-            </article>
-
-          </div>
           <p>
-              Ich habe meine Interesse nach Frontend Entwicklung in 2021 entdeckt.
-              Ich entwickle Webseiten mit Qualitätsbewusstsein
-              und ich gebe mein Bestes in jedem Projekt.
+          Ich beschäftige mich seit 2021 mit der Webentwicklung 
+          und habe mich insbesondere auf die Erstellung von Single-Page-Anwendungen mit React und Angular spezialisiert.
+          <br/>
+          <br/>
+          Ich verfüge über ein tiefes Verständnis für die grundlegenden Technologien HTML, CSS und JavaScript und bin in der Lage, 
+          diese Sprachen mit den von mir gewählten Frameworks zu integrieren und zu nutzen, um ansprechende Benutzeroberflächen zu erstellen.
+          <br/>
+          <br/>
+          Ich achte darauf, dass die Webanwendungen, die ich entwickle, auf allen Geräten gut aussehen und funktionieren, um die Benutzererfahrung zu optimieren.
+          <br/>
+          <br/>
+          Insgesamt bin ich sehr motiviert, mich als Frontend-Entwickler weiterzuentwickeln und freue mich auf zukünftige Projekte, bei denen ich meine Fähigkeiten einsetzen und erweitern kann.
           </p>
 
             <a href="#contact" className='btn btn-primary'>Lass uns sprechen</a>

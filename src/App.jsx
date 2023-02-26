@@ -5,7 +5,6 @@ import Contact from "./components/contact/Contact"
 import Experience from "./components/experience/Experience"
 import Nav from "./components/nav/Nav"
 import Footer from "./components/footer/Footer"
-import Services from "./components/services/Services"
 import Portfolio from "./components/portfolio/Portfolio"
 import React, { useMemo, useState } from 'react';
 import handleViewport from 'react-in-viewport';
@@ -16,7 +15,7 @@ function App() {
     header: true,
     about: false,
     experience: false,
-    services: false,
+    portfolio: false,
     contact: false
    })
   // Set viewport states
@@ -25,7 +24,7 @@ function App() {
         header:true,
         about:false,
         experience:false,
-        services: false,
+        portfolio: false,
         contact:false
       })
     }
@@ -34,7 +33,7 @@ function App() {
         header:false,
         about:true,
         experience:false,
-        services: false,
+        portfolio: false,
         contact:false
       })
     }
@@ -43,16 +42,16 @@ function App() {
         header:false,
         about:false,
         experience:true,
-        services: false,
+        portfolio: false,
         contact:false
       })
     }
-    const servicesEnter = () => {
+    const portfolioEnter = () => {
       setInView({
         header:false,
         about:false,
         experience:false,
-        services: true,
+        portfolio: true,
         contact:false
       })
     }
@@ -61,7 +60,7 @@ function App() {
         header:false,
         about:false,
         experience:false,
-        services: false,
+        portfolio: false,
         contact:true
       })
     }
@@ -69,14 +68,14 @@ function App() {
     const ViewportHeader = handleViewport(Header);
     const ViewportAbout = handleViewport(About);
     const ViewportExperience = handleViewport(Experience);
-    const ViewportServices = handleViewport(Services);
+    const ViewportPortfolio = handleViewport(Portfolio);
     const ViewportContact = handleViewport(Contact);
 
     // creating memo hook to not rerender
     const header= useMemo(()=><ViewportHeader onEnterViewport={headerEnter}/>,[])
     const about = useMemo(()=><ViewportAbout onEnterViewport={aboutEnter}/>,[])
     const experience = useMemo(()=><ViewportExperience onEnterViewport={experienceEnter}/>,[])
-    const services = useMemo(()=><ViewportServices onEnterViewport={servicesEnter}/>,[])
+    const portfolio = useMemo(()=><ViewportPortfolio onEnterViewport={portfolioEnter}/>,[])
     const contact = useMemo(()=><ViewportContact onEnterViewport={contactEnter}/>,[])
   return (
     <>
@@ -84,8 +83,7 @@ function App() {
       {header}
       {about}
       {experience}
-      {services}
-      <Portfolio />
+      {portfolio}
       {contact}
       <Footer />
     </>

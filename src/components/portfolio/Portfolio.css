@@ -6,6 +6,7 @@
 
 .portfolio__item {
     background: var(--color-bg-variant);
+    display: grid;
     padding: 1.2rem;
     border-radius: 2rem;
     border: 1px solid transparent;
@@ -27,8 +28,13 @@
     color: var(--color-light);
     margin-bottom: 0.5rem;
 }
+.description{
+    padding: .5rem 0;
+    font-size: 14px;
+}
 .portfolio__item-cta{
     display: flex;
+    align-self: flex-end;
     gap: 1rem;
     margin-bottom: 1rem;
 }

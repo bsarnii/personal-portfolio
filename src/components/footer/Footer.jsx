@@ -11,7 +11,6 @@ const Footer = () => {
         <li><a href="#header">Home</a></li>
         <li><a href="#about">Über mich</a></li>
         <li><a href="#experience">Erfahrung</a></li>
-        <li><a href="#services">Service</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#contact">Kontakt</a></li>
       </ul>
@@ -22,7 +21,7 @@ const Footer = () => {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; 2022 Arnold Schiopu</small>
+        <small>&copy; 2023 Arnold Schiopu</small>
       </div>
     </footer>
   )
