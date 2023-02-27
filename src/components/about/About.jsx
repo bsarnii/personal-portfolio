@@ -1,7 +1,5 @@
 import React from 'react'
 import "./About.css"
-import ME from "../../assets/mee-about.jpg";
-import {FaAward, FaFolderOpen} from "react-icons/fa";
 
 const About = ({forwardedRef})  => {
   return (
@@ -9,13 +7,7 @@ const About = ({forwardedRef})  => {
       <h5>Wer bin ich?</h5>
       <h2>Über mich</h2>
       <div className="container about__container">
-        <div className="about__me">
-          <div className="about__me-image" ref={forwardedRef}>
-            <img src={ME} alt="ich" />
-          </div>
-        </div>
-
-        <div className="about__content">
+        <div ref={forwardedRef} className="about__content">
           <p>
           Ich beschäftige mich seit 2021 mit der Webentwicklung 
           und habe mich insbesondere auf die Erstellung von Single-Page-Anwendungen mit React und Angular spezialisiert.
