@@ -52,6 +52,9 @@ input, textarea {
     resize: none;
     color: var(--color-white);
 }
+textarea{
+    height: 150px;
+}
 
 .nachricht__erfolg{
     color: var(--color-primary);

@@ -11,13 +11,13 @@ export const data = [
         tech: "HTML, CSS, Angular, ngrx, Adzuna API",
         github: "https://github.com/bsarnii/easybank",
         demo: "https://beamish-duckanoo-11e2a8.netlify.app/",
-        description: "Das Easybank-Projekt ist ein Beispiel für eine gut strukturierte und reaktive Angular-Anwendung, die mithilfe von Angular Router und ngrx mit Effects eine intuitive Navigation und eine zuverlässige Datenflussverwaltung ermöglicht."
+        description: "Das Easybank-Projekt ist ein Beispiel für eine gut strukturierte und reaktive Angular-Anwendung, die mithilfe von Angular Router und ngrx eine intuitive Navigation und eine zuverlässige Datenflussverwaltung ermöglicht. Es verwendet Angular Reactive Forms, um ein einfaches und leistungsstarkes Formularsystem zu implementieren."
     },
     {
         id: 2,
         image: IMG2,
         title: "Interactive comment section",
-        tech: "HTML, SCSS, TypeScript, React, Firebase",
+        tech: "HTML, SCSS, TypeScript, React, redux-toolkit, Firebase",
         github: "https://github.com/bsarnii/interactive-comment-section",
         demo: "https://comment-section-812cd.web.app/",
         description: "Das Projekt ist eine React-Webanwendung, die mit Typescript entwickelt wurde und Firebase als Backend nutzt. Es ermöglicht den Benutzern, sich mit Google-Authentifizierung anzumelden und neue Kommentare zu schreiben, zu bearbeiten, zu löschen oder auf andere Kommentare zu antworten."
